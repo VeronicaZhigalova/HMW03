@@ -1,6 +1,7 @@
 public class HomeWork3 {
-    public static int calculateAbsoluteDifference(int a, int b) {
-       return (-1) * (a - b);
+     public static int calculateAbsoluteDifference(int a, int b) {
+        return  Math.abs(a - b);
+
     }
 
 
