@@ -1,4 +1,19 @@
-class Letter {
+public class HomeWork3 {
+    public static void main(String[] args) {
+        int number1 = 5;
+        int number2 = 9;
+        int result = (number1 - number2);
+        if (result > 0) {
+            System.out.print(result);
+        } else {
+            System.out.println(-1 * result);
+
+        }
+
+    }
+
+}
+class Letter2 {
     public static void main(String[] args) {
 
         String text = "Python";
@@ -12,7 +27,7 @@ class Letter {
 }
 
 
-class Word {
+class Word2 {
     public static String swapFirstAndLast(String str) {
         if (str.length() < 2)
             return str;
